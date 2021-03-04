@@ -11,6 +11,7 @@ stage('BuildCode')
 {
 sh "${mavenHome}/bin/mvn clean package"
 }
+
   /*
 stage('ExecuteSonarQubeReport')
 {
@@ -34,5 +35,5 @@ Regards,
 BAR,
 9705422826.''', subject: 'Build Over', to: 'aravindreddy716@gmail.com'
 }
-/*
+*/
 }
